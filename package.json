@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon sever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandonbr1/url-shortener-frontend.git"
+  },
+  "author": "Brandonbr1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandonbr1/url-shortener-frontend/issues"
+  },
+  "homepage": "https://github.com/Brandonbr1/url-shortener-frontend#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "request": "^2.88.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
